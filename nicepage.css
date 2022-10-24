@@ -77,7 +77,6 @@
     -khtml-user-select: none;
     -webkit-user-select: none;
     -ms-user-select: none;
-    break-after: none;
     page-break-after: always; }
   .fr-view .fr-file {
     position: relative; }
@@ -17735,10 +17734,7 @@ blockquote .small:before {
 .pswp--touch .pswp__button--arrow--right {
   visibility: hidden;
 }
-/*
-	Arrow buttons hit area
-	(icon is added to :before pseudo-element)
-*/
+
 .pswp__button--arrow--left,
 .pswp__button--arrow--right {
   background: none;
